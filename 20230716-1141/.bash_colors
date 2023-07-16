@@ -1,0 +1,54 @@
+#!/bin/bash
+## Define
+
+# Set
+SBOLD="\[\e[1m\]"
+SDIM="\[\e[2m\]"
+SUNDERLINED="\[\e[4m\]"
+SBLINK="\[\e[5m\]"
+SREVERSE="\[\e[7m\]"
+RESET="\[\033[0m\]"
+
+# Colors foreground
+FBLACK="\[\e[30m\]"
+FRED="\[\e[31m\]"
+FGREEN="\[\e[32m\]"
+FYELLOW="\[\e[33m\]"
+FBLUE="\[\e[34m\]"
+FMAGENTA="\[\e[35m\]"
+FCYAN="\[\e[36m\]"
+FLIGHT_GRAY="\[\e[37m\]"
+FDEFAULT="\[\e[39m\]"
+FDARK_GRAY="\[\e[90m\]"
+FLIGHT_RED="\[\e[91m\]"
+FLIGHT_GREEN="\[\e[92m\]"
+FLIGHT_YELLOW="\[\e[93m\]"
+FLIGHT_BLUE="\[\e[94m\]"
+FLIGHT_MAGENTA="\[\e[95m\]"
+FLIGHT_CYAN="\[\e[96m\]"
+FWHITE="\[\e[97m\]"
+
+# Colors background
+BBLACK="\[\e[40m\]"
+BRED="\[\e[41m\]"
+BGREEN="\[\e[42m\]"
+BYELLOW="\[\e[43m\]"
+BBLUE="\[\e[44m\]"
+BMAGENTA="\[\e[45m\]"
+BCYAN="\[\e[46m\]"
+BLIGHT_GRAY="\[\e[47m\]"
+BDEFAULT="\[\e[49m\]"
+BDARK_GRAY="\[\e[100m\]"
+
+# Tput colors
+# Colors
+reset=$(tput sgr0)
+black=$(tput setaf 0)
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+yellow=$(tput setaf 3)
+blue=$(tput setaf 4)
+magenta=$(tput setaf 5)
+cyan=$(tput setaf 6)
+white=$(tput setaf 7)
+bold=$(tput bold)
